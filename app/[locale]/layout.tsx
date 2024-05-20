@@ -44,6 +44,7 @@ export default function RootLayout({
             </ActionSectionContextProvider>
           </ThemeContextProvider>
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   )
