@@ -22,7 +22,7 @@ export default function Intro() {
   const activeLocale = useLocale()
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
   const t = useTranslations("IntroSection")
-  const [playHover] = useSound("/bubble.wav", { volume: 0.5 })
+  // const [playHover] = useSound("/bubble.wav", { volume: 0.5 })
 
   return (
     <section
@@ -47,7 +47,7 @@ export default function Intro() {
               className="h-28 w-28 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
-          <motion.span
+          {/* <motion.span
             onHoverStart={() => {
               console.log("sound")
               playHover()
@@ -64,7 +64,7 @@ export default function Intro() {
             }}
           >
             👋
-          </motion.span>
+          </motion.span> */}
         </div>
       </div>
       <motion.h1
