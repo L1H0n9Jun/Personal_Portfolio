@@ -96,9 +96,9 @@ export default function Intro() {
             >
               <TypeAnimation
                 sequence={[
-                  "Frontend Developer",
+                  "Bioinformatics Scientist",
                   1000,
-                  "Full Stack Developer",
+                  "AI Developer",
                   1000,
                 ]}
                 wrapper="span"
@@ -112,7 +112,7 @@ export default function Intro() {
         {activeLocale === "en" && (
           <p>
             My focus is{" "}
-            <span className="italic font-bold">React (Next.js)</span>.
+            <span className="italic font-bold">Bioinformatics</span>.
           </p>
         )}
       </motion.h1>
