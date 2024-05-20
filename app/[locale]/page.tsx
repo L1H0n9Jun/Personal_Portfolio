@@ -8,8 +8,8 @@ import { isMobileDevice } from "@/lib/utils"
 // import Contact from "@/components/Contact"
 
 export const metadata = {
-  title: "Joy | Personal Portfolio",
-  description: "Joy is a full-stack developer with 2 years of experience.",
+  title: "Hongjun LI | Profile",
+  description: "He is a PhD graduate in bioinformatics.",
 }
 
 export default function Home() {
