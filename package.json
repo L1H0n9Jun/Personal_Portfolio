@@ -13,6 +13,7 @@
     "@types/react": "18.2.79",
     "@types/react-dom": "18.2.25",
     "@types/ua-parser-js": "^0.7.39",
+    "@vercel/analytics": "^1.2.2",
     "autoprefixer": "10.4.19",
     "clsx": "^2.1.1",
     "eslint": "8.57.0",

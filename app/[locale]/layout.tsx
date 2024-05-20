@@ -9,6 +9,7 @@ import ThemeSwitch from "@/components/ThemeTwich"
 import LanguageSwitch from "@/components/LanguageSwitch"
 import { NextIntlClientProvider, useMessages } from "next-intl"
 import WidgetWrapper from "@/components/WidgetWrapper"
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] })
 
